@@ -38,6 +38,7 @@ def hangman():
         print('You lost the game')
     elif len(target_word_letters)==0:
         print('Congrats!! YOU WON 🎉')
+    print(f'the word is: {target_word}')
 
 again='yes'
 while again.lower()=='yes':
